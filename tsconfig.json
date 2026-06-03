@@ -1,11 +1,7 @@
 {
   "extends": "astro/tsconfigs/strict",
   "include": [
-<<<<<<< HEAD
-    ".astro/types.d.ts",
-=======
     ".astro/types.d.ts", 
->>>>>>> 2f5f01c3d7afcdca50ebb9a5f393de755c0ef2e1
     "**/*"
   ],
   "exclude": [
@@ -14,11 +10,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-<<<<<<< HEAD
-      "@/*": [
-=======
       "@/*":[
->>>>>>> 2f5f01c3d7afcdca50ebb9a5f393de755c0ef2e1
         "./src/*"
       ]
     }
